@@ -1,0 +1,18 @@
+{
+  "name": "relay",
+  "version": "1.0.0",
+  "description": "Vercel relay to serve private bot repo as ZIP",
+  "main": "api/repo.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/repo.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.7"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
