@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/repo.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/repo", "dest": "api/repo.js" }
+  ]
+}
